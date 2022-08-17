@@ -1,0 +1,135 @@
+:root{
+    --Orange: hsl(25, 97%, 53%); 
+    --White: hsl(0, 0%, 100%);
+    --Light: hsl(217, 12%, 63%);/*grey*/
+    --Medium: hsl(216, 12%, 54%);/*grey*/
+    --Dark: hsl(213, 19%, 18%);/*blue*/
+    --Da: hsl(213, 19%, 14%);/*blue*/
+    --Very: hsl(216, 12%, 8%);/*dark blue*/
+
+    font-size: 62.5%;/*es el 62.5% de 16px que es el valor por defecto de 1rem, de esta forma ahora 1rem = 10px, 1.5rem = 15px, etc.*/
+    font-family: 'DM Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;/*border-box hace que todos los contenedores tengan exactamente el tamaño que se asigne con width y height. esto se explica en la CLASE 24 BOX MODEL*/
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.card-container__card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: var(--Da);
+    width: 300px;
+    height: 320px;
+}
+
+.card-container__star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark);
+    width: 30px;
+    height: 30px;
+    border-radius:50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-container__text{
+    color: var(--White);
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+p{
+    color: var(--Medium);
+}
+.card-container__wrapper-rating{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+.card-container__btn-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark);
+    color: var(--Medium);
+    width: 35px;
+    height: 35px;
+    border-radius:50px;
+    margin-bottom: 20px;
+}
+.card-container__btn-rating:hover{
+    background-color: var(--Orange);
+}
+.card-container__btn-rating--click{
+    background-color: var(--Light);
+    color: white;
+}
+
+.card-container__wrapper-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container__btn-submit{
+    color: var(--White);
+    background-color: var(--Orange);
+    border-color: var(--Orange);
+    border-radius:30px;
+    width: 245px;
+    height: 40px;
+}
+.card-container__btn-submit:hover{
+    background-color: var(--White);
+    border-color: var(--White);
+    color: var(--Orange);
+}
+
+
+.card-container__card--center-elements{
+    justify-content: center;
+    align-items: center;
+}
+.card-container__image{
+    width: 125px;
+    position: relative;
+}
+.card-container__text2{
+    background-color: var(--Dark);
+    font-size: 15px;
+    color: var(--Orange);
+    padding: 8px 8px;
+    border-radius: 20px;
+    position: relative;
+    top: 15px;
+}
+.card-container__text3{
+    position: relative;
+    top: 20px;;
+    color: var(--White);
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.card-container__parra{
+    position: relative;
+    right: 10px;
+}
+
+.hide {
+    display: none;
+  }
+

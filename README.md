@@ -1,4 +1,4 @@
-# rating card
+# rating card - frontendmentor challenge
 
 is an interactive rating card. this is a challenge solved from www.frontenmentor.io
 

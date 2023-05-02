@@ -8,4 +8,4 @@ is an interactive rating card. this is a challenge solved from www.frontenmentor
 
 ## Getting Started 🚀
 
-[click here to see the project](https://fabio-andres.github.io/rating-card/)
+[click here to see the project](https://fabio-andres.github.io/rating-card-frontendmentor/)
